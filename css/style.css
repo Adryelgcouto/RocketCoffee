@@ -1,0 +1,42 @@
+:root {
+  --backgrond: #000;
+  --text-color: #FFF;
+  --button: #8257E5;
+  --border: #29292E;
+  --border-menu-mobile: #A8A8B3;
+  --text-color-menu-mobile: #E1E1E6;
+}
+*{
+  font-family: 'Manrope', sans-serif;
+}
+body{
+  background-color: #000000;
+}
+.desktop{
+  
+}
+.blur-1{
+  position: relative;
+}
+.blur-1 > img{
+  position: fixed;
+  bottom: 0;
+  z-index: 0;
+}
+.blur-2{
+  position: relative;
+}
+.blur-2 > img{
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+h1{
+  font-size: 80px;
+  color: var(--text-color);
+}
+h2{
+  font-size: 80px;
+  color: var(--text-color);
+}
