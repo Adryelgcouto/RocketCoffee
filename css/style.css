@@ -49,7 +49,6 @@ nav > ul {
 ul {
   justify-content: space-between;
   width: 431px;
-  
 }
 ul > li > a {
   color: var(--text-color);
@@ -78,7 +77,8 @@ h1 {
 h2 {
   font-size: 80px;
   font-weight: bold;
-  text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+  text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button),
+    -1px 1px 0 var(--button), 1px 1px 0 var(--button);
 }
 main {
   display: flex;
@@ -90,12 +90,9 @@ main > div {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 main > div > img {
   width: 798px;
   position: absolute;
   bottom: 0;
-}
-main > div > div{
 }
